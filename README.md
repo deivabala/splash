@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# PWA Splash Screens
 
-You can use the [editor on GitHub](https://github.com/deivabala/splash/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Repository to support Medium blog post at [https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210](https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![PWA Splash Screens](pwa-splash-screens.png)
 
-### Markdown
+## Live Version
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If you simply want to test out the splash screens, visit [https://pwa-splash.now.sh](https://pwa-splash.now.sh) and add the app to your home screen when prompted on Android or manualy 'Add to Home Screen' on iOS.
 
-```markdown
-Syntax highlighted code block
+## Running the App Locally
 
-# Header 1
-## Header 2
-### Header 3
+Install serve globally from npm.
 
-- Bulleted
-- List
+`npm i -g serve`
 
-1. Numbered
-2. List
+Serve up the root directory:
 
-**Bold** and _Italic_ and `Code` text
+`serve .`
 
-[Link](url) and ![Image](src)
-```
+Serve will serve the static HTML website on `http://localhost:5000`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Manifest & Service Worker
 
-### Jekyll Themes
+In order to meet PWA requirements and show an App Install banner on Android this app has a functional App Manifest and Service Worker integrated.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/deivabala/splash/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## SketchFiles
 
-### Support or Contact
+Sketch files to generate the assets required for icons and splash screens can be found in the `assets` folder.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Icons
+
+Icons required to be a PWA created using: [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
