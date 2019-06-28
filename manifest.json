@@ -2,7 +2,7 @@
   "name": "PWA Splash",
   "short_name": "PWA Splash",
   "description": "PWA SPlash Screens",
-  "scope": ".",
+  "scope": "/splash/",
   "start_url": "/splash/",
   "display": "standalone",
   "orientation": "portrait",
